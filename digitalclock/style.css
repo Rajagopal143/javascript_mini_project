@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color:rgb(12, 4, 56);
+    display: grid;
+    place-items: center;
+}
+.clock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4.5rem;
+    border:4px dotted transparent;
+    border-image-slice:8;
+    border-image-source: linear-gradient(to right,rgb(252, 5, 116),rgb(0, 191, 249)) ;
+    background-image: linear-gradient(to right,rgb(9, 26, 211),rgb(255, 0, 115));
+    color: transparent;
+    background-clip: text;
+    width: 400px;
+    height: 100px;
+    box-shadow: 1px 1px 1px  rgb(255, 0, 21);
+}
+#section{
+    margin-left: 10px;
+}
