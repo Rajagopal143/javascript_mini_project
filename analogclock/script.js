@@ -13,4 +13,7 @@ function runTime(){
   second.style.setProperty("--rotation",sec*360);
    console.log(sec,min,hrs);
 }
+
+
+
 runTime();
