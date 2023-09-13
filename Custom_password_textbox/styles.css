@@ -13,7 +13,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 .container{
-    background-image:url('./images/360_F_427863926_mPyhfWhQX8v1JeF8Hj1X1AekchvSGdZt.jpg');
+    background-image:url('./bg.jpg');
     display: flex;
     flex-direction: column;
     align-items: center;
